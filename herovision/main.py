@@ -6,7 +6,7 @@ sg.theme('DarkAmber')   # Add a touch of color
 layout = [  [sg.Text('Herovision')],
             [sg.Text('Please select the location of the screenshot you\'d like to analyse'), sg.FileBrowse(key="-IN-")],
             [sg.Button('Upload'), sg.Button('Cancel')] ],
-            [sg.]
+            [sg.Image()]
 
 # Create the Window
 window = sg.Window('Herovision', layout)
