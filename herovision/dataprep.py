@@ -38,15 +38,9 @@ for current_folder in data_folders:
         print(filename)
         filepath = base_gcs_path + '/'+ current_folder + '/' + filename
         print(filepath)
+        label = current_folder
+        data_array.append((filepath, label))
 
-
-
-#print(filepath)
-
-#label = current_folder
-
-#data_array.append((base_gcs_path + current_folder + '/' + filename, label))
-
-#dataframe = pd.DataFrame(data_array)
-#dataframe.to_csv('all_data.csv', index=False, header=False)
-#print(dataframe.to_string())
+dataframe = pd.DataFrame(data_array)
+dataframe.to_csv('all_data.csv', index=False, header=False)
+print(dataframe.to_string())
