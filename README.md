@@ -4,8 +4,8 @@
  Project status
  - Data model generated [done]
  - Data model indexed [done]
- - Data model processed by google [working on it]
- - Object recognition in app
- - Relevant data pulling down from wikimedia [next step]
- - GUI built in tkinter [if I have time]
+ - Data model processed by google [done]
+ - Object recognition in app [next step]
+ - Relevant data pulling down from wikimedia [working on it]
+ - GUI built in qt5
  
