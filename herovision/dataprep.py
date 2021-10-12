@@ -24,7 +24,7 @@ data_folders = [
 
 artifact_count = 101
 
-base_gcs_path = 'gs://hv-heroset/DataSet'
+base_gcs_path = 'gs://hv-heroset/Dataset'
 
 # What we want:
 # gs://cloudml-demo-vcm/chairs_table_bike/chair_black/chair_black157.jpg, 'chair_black'

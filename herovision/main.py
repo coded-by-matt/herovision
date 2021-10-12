@@ -1,12 +1,16 @@
 #Herovision
 import PySimpleGUI as sg
+try:
+    from PIL import Image
+except ImportError:
+    import Image
 
 sg.theme('DarkAmber')   # Add a touch of color
 # All the stuff inside your window.
 layout = [  [sg.Text('Herovision')],
             [sg.Text('Please select the location of the screenshot you\'d like to analyse'), sg.FileBrowse(key="-IN-")],
             [sg.Button('Upload'), sg.Button('Cancel')] ],
-            [sg.Image()]
+            #[sg.Image('''C:\Users\MatthewH\Documents\GitHub\herovision\herovision\resources''')] #image preview
 
 # Create the Window
 window = sg.Window('Herovision', layout)
