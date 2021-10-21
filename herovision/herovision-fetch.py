@@ -1,7 +1,7 @@
 #seperate module for api implementation
 import requests
 import liquipediapy
-import dota from liquipediapy
+#import dota from liquipediapy
 
 #def gethero(heroname):
     #hero = requests.get("https://en.wikipedia.org/w/api.php?action=query&prop=revisions&titles=Pet_door&rvslots=*&rvprop=content&formatversion=2&format=json")
@@ -19,5 +19,5 @@ import dota from liquipediapy
 #test scenario - sniper is found in image, find the bio info for sniper using the api.
 
 
-liq = dota('herovision')
-print(type(liq.get_heros()))
+#liq = dota('herovision')
+#print(type(liq.get_heros()))

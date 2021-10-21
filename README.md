@@ -1,11 +1,15 @@
-# herovision
- Pairing useful information with dota 2 screenshots with google automl.
+# Herovision 📸
+Build an object recognition app from 3D models.
  
- Project status
- - Data model generated [done]
- - Data model indexed [done]
- - Data model processed by google [done]
- - Object recognition in app [next step]
- - Relevant data pulling down from wikimedia [working on it]
- - GUI built in qt5
+### Proof of concept status ✏
+ - [x] Initial data model generated
+ - [x] Initial data model indexed
+ - [x] Initial data model processed by google
+ - [x] Initial Model functional and usable through portal
+
+### Future work - automating the process 🚀
+ - [ ] Automated object recognition in app (next step)
+ - [ ] Model generation template
+ - [x] Model labeling script
+ - [ ] Model training script
  
